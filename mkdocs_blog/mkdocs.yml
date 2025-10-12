@@ -1,0 +1,54 @@
+site_name: 晴光的个人博客
+site_description: 分享技术，记录成长
+site_url: https://wxblog.com.cn
+repo_url: https://github.com/WangXi730
+repo_name: github
+
+theme:
+  name: material
+  logo: assets/favicon.ico
+  favicon: assets/favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+nav:
+  - 首页: index.md
+  - 文章:
+    - 推荐:
+      - Serverless个人博客搭建: practice/blog.md
+    - 技术:
+      - Serverless: serverless/index.md
+  - 关于: about.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/WangXi730
