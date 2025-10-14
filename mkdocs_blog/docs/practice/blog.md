@@ -37,8 +37,8 @@
 
 > **这里展示的pelican和mkdocs均为python包，根据自己使用的语言搜相关的包也是可以的，不拘泥与技术栈，主要看怎么能快速把服务搭起来，怎么样效果好**
 
-# 搭建操作
-## 1、生成网站页面文件
+## 搭建操作
+### 1、生成网站页面文件
 - 安装mkdocs包
 > pip install mkdocs
 - 编写首页文档，编写相关配置
@@ -46,7 +46,7 @@
 > #可以使用mkdocs serve调试，本地看看效果<br>
 > mkdocs build
 - 推送到github
-## 2、配置部署
+### 2、配置部署
 - 我这里选择了Vercel，进入到创建新项目页面，选择git仓库<br>
 ![/practice/blog_img/img.png](/practice/blog_img/img.png)
 - 填写部署信息<br>
@@ -58,7 +58,7 @@
 - 部署完成<br>
 ![/practice/blog_img/img_3.png](/practice/blog_img/img_3.png)
 
-## 3、配置CDN
+### 3、配置CDN
 - 购买域名<br>
 找个云厂商，控制台搜“域名服务”，挑一个自己喜欢的即可。这里需要注意，不同域名价格不同，注册和续费价格也不同，有些域名第一年可能就几块钱，但续费得几百，大家别踩坑。<br>
 ![/practice/blog_img/img_4.png](/practice/blog_img/img_4.png)
@@ -69,3 +69,6 @@
 - 配置域名CNAME<br>
 在你注册域名的云厂商中，进入“域名解析”服务，配置CNAME。CDN服务会提供一个域名，填写到记录值上<br>
 ![/practice/blog_img/img_6.png](/practice/blog_img/img_6.png)
+
+## 验证效果
+![/practice/blog_img/img_7.png](/practice/blog_img/img_7.png)
