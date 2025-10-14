@@ -42,10 +42,12 @@
 - 安装mkdocs包
 > pip install mkdocs
 - 编写首页文档，编写相关配置
-- 生成网页文件 
-> #可以使用mkdocs serve调试，本地看看效果<br>
+- 调试效果 
+> mkdocs serve
+- 生成网页文件
 > mkdocs build
 - 推送到github
+
 ### 2、配置部署
 - 我这里选择了Vercel，进入到创建新项目页面，选择git仓库<br>
 ![/practice/blog_img/img.png](/practice/blog_img/img.png)
