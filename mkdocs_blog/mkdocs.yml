@@ -44,8 +44,10 @@ nav:
   - 文章:
     - 推荐:
       - Serverless个人博客搭建: practice/blog.md
+      - 解决方案架构-云上架构方法: solution-architecture/architectural-approach-on-the-cloud.md
     - 技术:
       - Serverless: serverless/index.md
+      - 解决方案架构: solution-architecture/index.md
   - 关于: about.md
 
 extra:
