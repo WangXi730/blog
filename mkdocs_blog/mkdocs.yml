@@ -41,12 +41,12 @@ markdown_extensions:
 
 nav:
   - 首页: index.md
-  - 推荐:
-    - "Serverless个人博客搭建": practice/blog.md
-    - "解决方案架构-云上架构方法": solution-architecture/architectural-approach-on-the-cloud.md
   - 专栏:
     - "Serverless": serverless/serverless.md
     - "解决方案架构": solution-architecture/solution-architecture.md
+  - 推荐:
+    - "Serverless个人博客搭建": practice/blog.md
+    - "解决方案架构-云上架构方法": solution-architecture/architectural-approach-on-the-cloud.md
   - 关于: about.md
 
 extra:
