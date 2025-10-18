@@ -40,13 +40,17 @@ markdown_extensions:
   - pymdownx.details
 
 nav:
-  - 首页: index.md
-  - 专栏:
-    - "Serverless": serverless/serverless.md
-    - "解决方案架构": solution-architecture/solution-architecture.md
-  - 推荐:
-    - "Serverless个人博客搭建": practice/blog.md
-    - "解决方案架构-云上架构方法": solution-architecture/architectural-approach-on-the-cloud.md
+  - 首页:
+    - 首页: index.md
+    - 架构: architecture.md
+  - 解决方案架构:
+      - 专栏首页: solution-architecture/index.md
+      - 云上架构方法: solution-architecture/architectural-approach-on-the-cloud.md
+  - Serverless:
+    - 专栏首页: serverless/index.md
+    - 静态网页: serverless/static_website.md
+  - 实践:
+    - 专栏首页: practice/index.md
   - 关于: about.md
 
 extra:
