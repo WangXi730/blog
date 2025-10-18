@@ -51,6 +51,7 @@ nav:
     - 静态网页: serverless/static_website.md
   - 实践:
     - 专栏首页: practice/index.md
+    - 个人博客搭建: practice/blog.md
   - 关于: about.md
 
 extra:
